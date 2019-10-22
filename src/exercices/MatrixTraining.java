@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MatrixTraining {
 
     /**
@@ -7,9 +9,9 @@ public class MatrixTraining {
      * eg: {{0, 0}, {0, 0}, {0, 0}}
      */
     public int[][] emptyIntMatrix(int lines, int columns) {
-
-        return null;
-    }
+    	 
+    	 return null;
+    } 
 
     /**
      * @param lines   height of the matrix, eg: 2
