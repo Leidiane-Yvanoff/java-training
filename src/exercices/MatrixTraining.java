@@ -112,12 +112,16 @@ public class MatrixTraining {
      */
     public boolean contains(int[][] matrix, int search) {
     	
-    	matrix.equals(search);
-		return true;
-    	     
-    	  
+    	for(int[] tableau : matrix) {
+    		for( int value : tableau) {
+    			if(value == search) {
+    				return true;	
+    			}
+    			
+    		}
+    	}
+		return false;
     }
-
     /**
      * @param matrix, eg: {{1, 2, 3}, {4, 5, 6}}
      * @return how many even numbers are in matrix, eg: 3
