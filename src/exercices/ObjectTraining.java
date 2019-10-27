@@ -14,6 +14,7 @@ public class ObjectTraining {
     public ObjectTraining(String name, int age) {  
         this.name = name;  
         this.age = 0;  
+        this.wilder = true;
         
     }  
 
